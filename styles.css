@@ -59,7 +59,6 @@ header, h2 {
 .tile1, .tile2, .tile3, .tile4 {
     position: relative;
     height: max(10em, 20vw);
-    /* border: 1px solid black; */
     box-sizing: content-box;
     padding: 5%;
     border-radius: 10px;
@@ -89,44 +88,12 @@ img {
     right: 10%;
     height: clamp(2.5em, 6vw, 7.5em);
     width: clamp(2.5em, 6vw, 7.5em);
-    /* float: right; */
-    /* margin-top: clamp(4.5em, 9vw, 20em); */
+    
 }
 .innertxt {
     font-size: clamp(.6em, 1.2vw, 1.8em);
 }
-/* @media screen and (min-width: 768px) {
-    main {
-        width: clamp(70em, 80vh, 200em);
-    }
-   .tiles {
-       display: flex;
-       align-items: center;
-       column-gap: 5vh;
-   }
 
-   .tile1, .tile2, .tile3, .tile4 {
-        height: max(8em, 5vw);
-        margin-bottom: 5vh;
-         width: max(12em, 20vw); 
-    
-   }
-   .middle {
-        margin-top: 10%;
-        width: max(12em, 20vw);
-    }
-    h2 {
-        margin-top: -1em;
-    }
-   .text {
-       margin-bottom: -2em;
-   }
-   img {
-        height: clamp(1em, 4vw, 6em);
-        width: clamp(1em, 4vw, 6em);
-    }   
-    
-}*/
 @media screen and (min-width: 768px) {
     main {
         width: 90%;
